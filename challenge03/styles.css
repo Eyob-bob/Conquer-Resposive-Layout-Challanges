@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #23424a;
+  color: white;
+}
+
+.sub-container {
+  width: 50%;
+  padding: 2.5rem;
+  padding-bottom: 10rem;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 21px;
+  margin-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #1a2e33;
+  background-color: #38cfd9;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
