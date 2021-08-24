@@ -89,3 +89,20 @@ body {
 .first h2 {
   color: #87629a;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 632px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col + .col {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+
+  .col h2 {
+    margin-bottom: 1rem;
+  }
+}
