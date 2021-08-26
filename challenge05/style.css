@@ -94,7 +94,11 @@ main {
 }
 
 .col {
-  width: 230%;
+  width: 62%;
+}
+
+.col-2 {
+  width: 32%;
 }
 .rows {
   padding: 4rem;
@@ -105,13 +109,8 @@ main {
   color: white;
   background-color: #136c72;
   text-align: center;
-  width: 90%;
 }
 
 .row__text > h2 {
   color: #136c72;
-}
-
-.col + .col {
-  margin-left: 5rem;
 }
